@@ -1,0 +1,8 @@
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/factory/impl/ConnectOracle.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/factory/impl/ConnectQLServer.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/factory/impl/ConnectPostgreSQL.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/factory/impl/ConnectEmpty.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/conexion/ConexionFabrica.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/Aplicacion.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/factory/IConexion.java
+/home/joseph/NetBeansProjects/PatronFactory/src/main/java/com/kobitxu/patronfactory/factory/impl/ConnectMySQL.java

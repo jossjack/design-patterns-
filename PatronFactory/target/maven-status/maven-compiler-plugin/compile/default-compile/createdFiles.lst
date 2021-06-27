@@ -1,0 +1,8 @@
+com/kobitxu/patronfactory/factory/impl/ConnectMySQL.class
+com/kobitxu/patronfactory/factory/impl/ConnectEmpty.class
+com/kobitxu/patronfactory/Aplicacion.class
+com/kobitxu/patronfactory/factory/impl/ConnectQLServer.class
+com/kobitxu/patronfactory/conexion/ConexionFabrica.class
+com/kobitxu/patronfactory/factory/impl/ConnectOracle.class
+com/kobitxu/patronfactory/factory/IConexion.class
+com/kobitxu/patronfactory/factory/impl/ConnectPostgreSQL.class
