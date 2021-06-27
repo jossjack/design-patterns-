@@ -1,0 +1,5 @@
+com/kobitxu/patronsingleton/dao/MonedaDAO.class
+com/kobitxu/patronsingleton/dao/impl/MonedaDAOImpl.class
+com/kobitxu/patronsingleton/service/MonedaService.class
+com/kobitxu/patronsingleton/Aplicacion.class
+com/kobitxu/patronsingleton/model/Moneda.class
