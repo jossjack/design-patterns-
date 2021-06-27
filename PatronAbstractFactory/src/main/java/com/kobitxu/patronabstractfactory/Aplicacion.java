@@ -28,7 +28,6 @@ public class Aplicacion {
         FabricaAbstracta fabricaREST = FabricaProductor.getFactory("REST");
         IConexionREST cxRS1 = fabricaREST.getREST("COMPRAS");
 
-        cxRS1.leerURL("https://www.youtube.com/subscription_center?add_user=mitocode");
+        cxRS1.leerURL("https://www.youtube.com/subscription_center?add_user=josephreyesm");
     }
-
 }
