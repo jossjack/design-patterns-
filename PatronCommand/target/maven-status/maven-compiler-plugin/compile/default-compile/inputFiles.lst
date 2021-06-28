@@ -1,0 +1,10 @@
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/service/impl/ColombiaServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/service/IServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/command/impl/ResetServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/service/impl/EcuadorServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/command/Command.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/command/impl/ApagarServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/service/impl/PeruServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/command/impl/PrenderServer.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/Aplicacion.java
+/home/joseph/NetBeansProjects/PatronCommand/src/main/java/com/kobitxu/patroncommand/Invoker.java
