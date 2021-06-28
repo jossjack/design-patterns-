@@ -1,0 +1,4 @@
+com/kobitxu/patronproxy/Aplicacion.class
+com/kobitxu/patronproxy/process/BatchProcess.class
+com/kobitxu/patronproxy/proxy/ProxyBatchProcess.class
+com/kobitxu/patronproxy/process/BatchProcessImpl.class
