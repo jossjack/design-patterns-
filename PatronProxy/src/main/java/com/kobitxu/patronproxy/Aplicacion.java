@@ -14,22 +14,25 @@ import com.kobitxu.patronproxy.proxy.ProxyBatchProcess;
  */
 public class Aplicacion {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+	/**
+	 * @param args the command line arguments
+	 * 
+	 *             En la salida vemos que la primer ejecución ‘carga’ el file y en
+	 *             la segunda el proceso se realiza sin volver a ‘cargarlo’ tal como
+	 *             deseábamos.
+	 */
+	public static void main(String[] args) {
 
-        BatchProcess batchProcess = new ProxyBatchProcess("big_file.txt");
+		BatchProcess batchProcess = new ProxyBatchProcess("big_file.txt");
 
-        //batchProcess will be loaded from disk
-        System.out.println("BatchProcess will be loaded from disk");
-        batchProcess.process();
+		// batchProcess will be loaded from disk
+		System.out.println("BatchProcess will be loaded from disk");
+		batchProcess.process();
 
-        System.out.println("-----------------");
+		System.out.println("-----------------");
 
-        //batchProcess will not be loaded from disk
-        System.out.println("BatchProcess will not be loaded from disk");
-        batchProcess.process();
-    }
-
+		// batchProcess will not be loaded from disk
+		System.out.println("BatchProcess will not be loaded from disk");
+		batchProcess.process();
+	}
 }
