@@ -1,0 +1,10 @@
+com/kobitxu/patronobjectpool/impl/factory/IPoolableObjectFactory.class
+com/kobitxu/patronobjectpool/Aplicacion.class
+com/kobitxu/patronobjectpool/impl/poolable/ExecutorTask.class
+com/kobitxu/patronobjectpool/impl/IPooledObject.class
+com/kobitxu/patronobjectpool/impl/AbstractObjectPool$PooledObjectStatus.class
+com/kobitxu/patronobjectpool/impl/PoolException.class
+com/kobitxu/patronobjectpool/impl/ExecutorThreadPool.class
+com/kobitxu/patronobjectpool/impl/poolable/IObjectPool.class
+com/kobitxu/patronobjectpool/impl/factory/ExecutorTaskFactory.class
+com/kobitxu/patronobjectpool/impl/AbstractObjectPool.class
