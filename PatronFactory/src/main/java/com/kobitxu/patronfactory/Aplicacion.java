@@ -32,5 +32,4 @@ public class Aplicacion {
         cx3.conectar();
         cx3.desconectar();
     }
-
 }
