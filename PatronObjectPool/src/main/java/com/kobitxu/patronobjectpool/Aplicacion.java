@@ -5,11 +5,11 @@
  */
 package com.kobitxu.patronobjectpool;
 
-import com.kobitxu.patronobjectpool.impl.ExecutorThreadPool;
-import com.kobitxu.patronobjectpool.impl.PoolException;
-import com.kobitxu.patronobjectpool.impl.factory.ExecutorTaskFactory;
-import com.kobitxu.patronobjectpool.impl.poolable.ExecutorTask;
-import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import com.kobitxu.patronobjectpool.impl.poolable.JDBCConnectionPool;
 
 /**
  *
@@ -17,28 +17,36 @@ import java.io.IOException;
  */
 public class Aplicacion {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        final ExecutorThreadPool pool = new ExecutorThreadPool(2, 6, 1000 + 100, new ExecutorTaskFactory());
-        for (int c = 0; c < 10; c++) {
-            new Thread(() -> {
-                try {
-                    ExecutorTask task = pool.getObject();
-                    task.execute();
-                    pool.releaseObject(task);
-                } catch (PoolException e) {
-                    System.out.println("Error ==> " + e.getMessage());
-                }
-            }).start();
-        }
+	/**
+	 * @param args the command line arguments
+	 */
+	public static void main(String args[]) {
+		// Do something...
 
-        try {
-            System.in.read();
-            System.out.println(pool);
-        } catch (IOException e) {
-            System.out.println("Out disponible");
-        }
-    }
+		// Create the ConnectionPool:
+		JDBCConnectionPool pool = new JDBCConnectionPool("org.hsqldb.jdbcDriver", "jdbc:hsqldb:mem:test", "sa", "");
+
+		// Get a connection:
+		Connection con = pool.checkOut();
+
+		// Use the connection		
+		
+		try (Statement statement = con.createStatement()) {
+			
+			statement.execute("create table employee (name varchar(100))");
+            statement.execute("insert into employee (name) values ('Joseph Reyes')");
+            statement.execute("insert into employee (name) values ('Jackson Moreira')");
+            statement.execute("insert into employee (name) values ('Jack v2.0')");
+            
+            statement.execute("select * from employee");
+            ResultSet rs = statement.getResultSet();
+            while (rs.next()) {
+                System.out.println(rs.getString(1));
+            }
+		} catch (SQLException ex) {
+			ex.printStackTrace();
+		}
+		// Return the connection:
+		pool.checkIn(con);
+	}
 }
