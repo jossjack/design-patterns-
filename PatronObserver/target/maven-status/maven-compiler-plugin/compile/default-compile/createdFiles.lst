@@ -1,0 +1,6 @@
+com/kobitxu/patronobserver/model/Subject.class
+com/kobitxu/patronobserver/service/PesoARGObservador.class
+com/kobitxu/patronobserver/Aplicacion.class
+com/kobitxu/patronobserver/service/PesoMXObservador.class
+com/kobitxu/patronobserver/service/Observador.class
+com/kobitxu/patronobserver/service/SolObservador.class
