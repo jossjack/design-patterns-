@@ -1,0 +1,8 @@
+com/kobitxu/patronfacade/service/impl/MobileFacade.class
+com/kobitxu/patronfacade/service/impl/WifiSevice.class
+com/kobitxu/patronfacade/Aplicacion.class
+com/kobitxu/patronfacade/model/Battery.class
+com/kobitxu/patronfacade/model/CPU.class
+com/kobitxu/patronfacade/service/MobileService.class
+com/kobitxu/patronfacade/service/impl/Mobile.class
+com/kobitxu/patronfacade/service/impl/GPSService.class
