@@ -28,13 +28,13 @@ public class Aplicacion {
         try {
             final String message = "<Person><Name>Joseph Reyes Moreira</Name></Person>";
             String messageAES = aesImpl.encryptMessage(message, "HG58YZ3CR9123456");
-            System.out.println("messageAES > " + messageAES + "\n");
+            System.out.println("message con encriptacion AES > " + messageAES + "\n");
 
             String messageDES = desImpl.encryptMessage(message, "XMzDdG4D03CKm2Ix");
-            System.out.println("messageDES > " + messageDES + "\n");
+            System.out.println("message con encriptacion DES > " + messageDES + "\n");
 
             String messageNO = noImpl.encryptMessage(message, null);
-            System.out.println("messageNO > " + messageNO + "\n");
+            System.out.println("message sin encriptacion > " + messageNO + "\n");
         } catch (Exception e) {
             e.printStackTrace();
         }
