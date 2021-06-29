@@ -18,9 +18,9 @@ import java.util.TimerTask;
  */
 public class Aplicaciones extends TimerTask {
 
-    private static final String[] PATHS = new String[]{"C:/files/drugstore", "C:/files/grocery"};
-    private static final String LOG_DIR = "C:/files/logs";
-    private static final String PROCESS_DIR = "C:/files/process";
+    private static final String[] PATHS = new String[]{"./src/META-INF/files/drugstore", "./src/META-INF/files/grocery"};
+    private static final String LOG_DIR = "./src/main/java/META-INF/files/logs";
+    private static final String PROCESS_DIR = "./src/main/java/META-INF/files/process";
 
     /**
      * @param args the command line arguments
