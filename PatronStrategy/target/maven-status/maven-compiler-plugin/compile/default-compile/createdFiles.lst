@@ -1,0 +1,7 @@
+com/kobitxu/patronstrategy/service/AnalisisSimple.class
+com/kobitxu/patronstrategy/service/AntivirusAvanzado.class
+com/kobitxu/patronstrategy/service/Contexto.class
+com/kobitxu/patronstrategy/service/AntivirusSimple.class
+com/kobitxu/patronstrategy/service/AnalisisAvanzado.class
+com/kobitxu/patronstrategy/Aplicacion.class
+com/kobitxu/patronstrategy/service/IEstrategia.class
