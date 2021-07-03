@@ -19,8 +19,8 @@ public class EmployeeDAOService {
     private List<Employee> EMPLOYEE_LIST = new ArrayList<>();
 
     public EmployeeDAOService() {
-        Employee emp1 = new Employee(1L, "Oscar Blancarte",
-                new Address("Reforma 150 int 20, Mexico D.F."));
+        Employee emp1 = new Employee(1L, "joseph Reyes",
+                new Address("EC - Guayaquil."));
         EMPLOYEE_LIST.add(emp1);
     }
 
