@@ -31,8 +31,9 @@ public class Aplicacion {
                     = JAXBContext.newInstance(Project.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
             project = (Project) unmarshaller
-                    .unmarshal(Aplicacion.class
-                            .getResourceAsStream("/META-INF/Project.xml"));
+                    .unmarshal(Aplicacion.class.getClassLoader()
+                            .getResourceAsStream("Project.xml"));
+           
         } catch (Exception e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
