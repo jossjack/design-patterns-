@@ -1,0 +1,10 @@
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/impl/PriceProjectVisitor.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/Aplicacion.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/impl/IVisitor.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/domain/Activitie.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/domain/Project.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/domain/Employee.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/domain/EmployeePay.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/impl/IVisitable.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/impl/PaymentProjectVisitor.java
+/home/joseph/NetBeansProjects/PatronVisitor/src/main/java/com/kobitxu/patronvisitor/impl/CostProjectVisitor.java
