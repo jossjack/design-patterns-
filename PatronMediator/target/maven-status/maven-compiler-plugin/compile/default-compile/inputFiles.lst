@@ -1,0 +1,13 @@
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/NotifyModule.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/Aplicacion.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/dto/ProductRequest.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/PurchaseModule.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/dto/Product.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/CRMModule.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/ModuleMediator.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/AbstractModule.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/ModuleMessage.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/dto/Sale.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/ECommerceModule.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/dto/SaleOrder.java
+/home/joseph/NetBeansProjects/PatronMediator/src/main/java/com/kobitxu/patronmediator/module/impl/StockModule.java

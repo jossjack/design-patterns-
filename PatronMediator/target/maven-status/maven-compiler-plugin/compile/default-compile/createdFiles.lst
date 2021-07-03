@@ -1,0 +1,14 @@
+com/kobitxu/patronmediator/module/impl/ECommerceModule.class
+com/kobitxu/patronmediator/module/impl/PurchaseModule.class
+com/kobitxu/patronmediator/module/ModuleMessage.class
+com/kobitxu/patronmediator/module/impl/NotifyModule.class
+com/kobitxu/patronmediator/module/ModuleMediator.class
+com/kobitxu/patronmediator/module/AbstractModule.class
+com/kobitxu/patronmediator/module/impl/dto/Sale.class
+com/kobitxu/patronmediator/Aplicacion.class
+com/kobitxu/patronmediator/module/impl/dto/SaleOrder.class
+com/kobitxu/patronmediator/module/impl/dto/ProductRequest.class
+com/kobitxu/patronmediator/module/impl/CRMModule$1.class
+com/kobitxu/patronmediator/module/impl/StockModule.class
+com/kobitxu/patronmediator/module/impl/CRMModule.class
+com/kobitxu/patronmediator/module/impl/dto/Product.class
