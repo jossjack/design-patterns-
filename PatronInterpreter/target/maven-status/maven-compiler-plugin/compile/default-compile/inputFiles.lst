@@ -1,0 +1,16 @@
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/InterpreteException.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/SelectExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/FromExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/terminal/LiteralExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/OrExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/WhereExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/AbstractSQLExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/StatementExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/terminal/NumericExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/BooleanExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/terminal/TextExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/AndExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/Aplicacion.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/nonterminal/TargetExpression.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/Context.java
+/home/joseph/NetBeansProjects/PatronInterpreter/src/main/java/com/kobitxu/patroninterpreter/sql/terminal/DateExpression.java

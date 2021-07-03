@@ -1,0 +1,16 @@
+com/kobitxu/patroninterpreter/sql/nonterminal/OrExpression.class
+com/kobitxu/patroninterpreter/sql/nonterminal/AndExpression.class
+com/kobitxu/patroninterpreter/sql/nonterminal/BooleanExpression.class
+com/kobitxu/patroninterpreter/sql/Context.class
+com/kobitxu/patroninterpreter/sql/nonterminal/SelectExpression.class
+com/kobitxu/patroninterpreter/Aplicacion.class
+com/kobitxu/patroninterpreter/sql/nonterminal/TargetExpression.class
+com/kobitxu/patroninterpreter/sql/InterpreteException.class
+com/kobitxu/patroninterpreter/sql/nonterminal/StatementExpression.class
+com/kobitxu/patroninterpreter/sql/terminal/LiteralExpression.class
+com/kobitxu/patroninterpreter/sql/terminal/NumericExpression.class
+com/kobitxu/patroninterpreter/sql/nonterminal/FromExpression.class
+com/kobitxu/patroninterpreter/sql/terminal/DateExpression.class
+com/kobitxu/patroninterpreter/sql/AbstractSQLExpression.class
+com/kobitxu/patroninterpreter/sql/nonterminal/WhereExpression.class
+com/kobitxu/patroninterpreter/sql/terminal/TextExpression.class

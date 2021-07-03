@@ -120,10 +120,10 @@ public class Aplicacion {
         Aplicacion main = new Aplicacion();
         main.buildProducts();
 
-        //main.orderSimpleProducts();
+        main.orderSimpleProducts();
         //main.orderHomePC();
         //main.orderGammerPC();
         //main.orderCombo();
-        main.orderBig();
+        //main.orderBig();
     }
 }

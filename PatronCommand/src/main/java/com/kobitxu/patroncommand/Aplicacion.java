@@ -7,7 +7,9 @@ package com.kobitxu.patroncommand;
 
 import com.kobitxu.patroncommand.command.Command;
 import com.kobitxu.patroncommand.command.impl.PrenderServer;
+import com.kobitxu.patroncommand.service.impl.ColombiaServer;
 import com.kobitxu.patroncommand.service.impl.EcuadorServer;
+import com.kobitxu.patroncommand.service.impl.PeruServer;
 
 /**
  *
@@ -19,7 +21,7 @@ public class Aplicacion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Command command = new PrenderServer(new EcuadorServer());
+        Command command = new PrenderServer(new ColombiaServer());
         Invoker serverAdmin = new Invoker(command);
         serverAdmin.run();
     }
