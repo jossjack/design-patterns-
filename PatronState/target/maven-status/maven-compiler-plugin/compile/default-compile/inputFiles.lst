@@ -1,0 +1,9 @@
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/state/AbstractServerState.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/MessageProcess.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/gui/ServerPanel.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/state/StartServerState.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/Server.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/state/StopServerState.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/state/StartingServerState.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/state/SaturatedServerState.java
+/home/joseph/NetBeansProjects/PatronState/src/main/java/com/kobitxu/patronstate/Aplicacion.java
